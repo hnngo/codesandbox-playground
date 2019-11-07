@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px 10%;
+}
+
+.table-container .header {
+  padding: 30px;
+  font-size: 35px;
+  font-family: "McLaren", cursive;
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container table thead {
+  background-color: gray;
+  color: white;
+}
+
+.table-container tr {
+  height: 40px;
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+}
+
+.table-container table tr:nth-child(1) td {
+  position: relative;
+}
+
+.sort-btn {
+  position: absolute;
+  right: 8%;
+  top: 6px;
+}
+
+.sort-btn div {
+  font-size: 10px;
+  cursor: pointer;
+}

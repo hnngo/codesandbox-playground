@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: rgb(228, 228, 228);
+  height: 100vh;
+}
+
+.contain-box {
+  text-align: center;
+}
+
+.contain-box > .header {
+  padding: 25px 0;
+  font-size: 34px;
+  font-family: "McLaren", cursive;
+}
+
+.box-area {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+  margin: 10px;
+}
+
+.box .header {
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+  position: absolute;
+  top: -13px;
+  left: 15px;
+  background-color: rgb(228, 228, 228);
+  padding: 0 5px;
+}
+
+.sub-container .add-tools input {
+  margin: 5px 0;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.sub-container .add-tools input:focus {
+  border: 2px solid green;
+}
+
+.sub-container .add-tools input:nth-child(1) {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.sub-container .add-tools button {
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+  padding: 5px 20px;
+  border-radius: 15px;
+  outline: none;
+  background-color: white;
+}
+
+.sub-container .add-tools button:hover {
+  background-color: gray;
+}
+
+.pub-container .event-area:first-child {
+  margin-top: 10px;
+}
+
+.pub-container .event-area {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pub-container .event-area .event-name {
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+}
+
+.pub-container .event-area .event-tools button {
+  padding: 0px 5px;
+  font-size: 18px;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.pub-container .event-area .event-tools button:nth-child(1) {
+  color: blue;
+}
+
+.pub-container .event-area .event-tools button:nth-child(2) {
+  color: red;
+}
+
+.subscribers {
+  text-align: left;
+}
+
+.subscribers .subscribers-content {
+  margin: 5px 0px;
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+}
+
+.subscribers .subscribers-content:first-child {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.emit-box div {
+  margin: 5px 0px;
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+}
+
+.emit-box div:first-child {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}

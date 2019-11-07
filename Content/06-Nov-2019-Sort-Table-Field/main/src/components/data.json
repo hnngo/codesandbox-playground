@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Alex",
+    "age": 24,
+    "grade": 6.75
+  },
+  {
+    "id": 2,
+    "name": "Mike",
+    "age": 20,
+    "grade": 8.75
+  },
+  {
+    "id": 3,
+    "name": "Lil",
+    "age": 22,
+    "grade": 9.25
+  },
+  {
+    "id": 4,
+    "name": "Kirlin",
+    "age": 24,
+    "grade": 9.0
+  },
+  {
+    "id": 5,
+    "name": "Marine",
+    "age": 23,
+    "grade": 8.5
+  },
+  {
+    "id": 6,
+    "name": "Andrew",
+    "age": 20,
+    "grade": 5.7
+  }
+]
