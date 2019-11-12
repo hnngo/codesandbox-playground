@@ -7,7 +7,7 @@ const Subscribers = props => {
     return subscribers.map((s, i) => {
       return (
         <div key={i} className="subscribers-content">
-          {s.getSubscriberName()} subscribed {s.getEventName()}
+          {s.getSubscriberName()} subscribed '{s.getEventName()}' event
         </div>
       );
     });

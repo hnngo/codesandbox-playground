@@ -9,7 +9,7 @@ const AddSubscriber = props => {
     <div className="sub-container">
       <div className="add-tools">
         <input
-          placeholder="name"
+          placeholder="subscriber's name"
           value={name}
           onChange={e => setName(e.target.value)}
         />
